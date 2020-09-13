@@ -21,3 +21,6 @@ else{
 function reduceToAllTrue(sourceArray){
   return sourceArray.reduce(function(acc,currVal){return acc&&currVal;});
 }
+function reduceToAnyTrue(sourceArray){
+  return sourceArray.reduce(function(acc,currVal){return acc||currVal;});
+}
