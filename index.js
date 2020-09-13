@@ -19,8 +19,8 @@ else{
   return sourceArray.reduce(function(acc,currVal){return acc+currVal;});
 }}
 function reduceToAllTrue(sourceArray){
-  return sourceArray.reduce(function(acc,currVal){return acc&&currVal;});
+  return sourceArray.reduce(function(acc,currVal){return !!acc&&!!currVal;});
 }
 function reduceToAnyTrue(sourceArray){
-  return sourceArray.reduce(function(acc,currVal){return acc||currVal;});
+  return sourceArray.reduce(function(acc,currVal){return !!acc||!!currVal;});
 }
