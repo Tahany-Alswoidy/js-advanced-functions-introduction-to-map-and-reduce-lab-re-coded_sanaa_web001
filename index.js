@@ -11,3 +11,6 @@ const mapToDouble=(sourceArray)=>{
 const mapToSquare=(sourceArray)=>{
     return sourceArray.map(element=>element**2);
 }
+function reduceToTotal(sourceArray, startingPoint){
+  return 
+}
